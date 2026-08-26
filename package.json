@@ -1,0 +1,20 @@
+{
+  "name": "mailtea-hono-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Send email with Mailtea from a Hono API.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.1",
+    "hono": "^4.13.5",
+    "mailtea-sdk": "0.11.0"
+  }
+}
