@@ -30,7 +30,7 @@ To get the most out of this guide, you'll need to:
    ```bash
    curl -X POST http://localhost:3000/send \
      -H 'Content-Type: application/json' \
-     -d '{"to":"reader@example.com","subject":"Hello","html":"<p>Sent with Mailtea.</p>"}'
+     -d '{"to":"you@yourdomain.com","subject":"Hello","html":"<p>Sent with Mailtea.</p>"}'
    ```
    ```json
    { "id": "txemail_2f1c9b0a4d5e4f8ab3c6d7e8f9a0b1c2" }
